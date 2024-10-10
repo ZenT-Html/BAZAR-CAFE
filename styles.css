@@ -9,7 +9,7 @@ header {
     background-image: url('Fotbar.jpg'); /* Ganti dengan nama file gambar Anda */
     background-size: cover; /* Agar gambar mengisi seluruh area */
     background-position: center; /* Agar gambar terpusat */
-    height: cover; /* Atur tinggi header */
+    height: 100; /* Atur tinggi header */
     color: rgb(255, 255, 255); /* Warna teks di dalam header */
     display: flex;
     align-items: 40px; /* Vertikal center */
