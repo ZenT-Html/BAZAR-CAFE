@@ -17,23 +17,10 @@ header {
     border: 4px solid #000; /* Border kotak hitam */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan untuk efek 3D */
 }
-
-@media (max-width: 480px) {
-    header {
-        height: 60px; /* Tinggi header lebih kecil untuk mobile */
-    }
-
-    h1 {
-        font-size: 1.2rem; /* Ukuran font h1 lebih kecil */
-    }
-
-    h2 {
-        font-size: 1.2rem; /* Ukuran font h2 lebih kecil */
-    }
-
-    p {
-        font-size: 0.8rem; /* Ukuran font paragraf lebih kecil */
-    }
+.responsive-img {
+    width: 100%; /* Gambar memenuhi lebar kontainer */
+    height: auto; /* Tinggi otomatis sesuai aspek rasio */
+    max-width: 600px; /* Membatasi lebar maksimum gambar */
 }
 
 main {
@@ -55,6 +42,12 @@ section {
     margin: 20px 0;
     padding: 25px;
     border: 2px solid #000000;
+}
+
+@media (max-width: 480px) {
+    .responsive-img {
+        width: 100%; /* Lebar penuh untuk mobile */
+    }
 }
 
 footer {
