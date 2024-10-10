@@ -18,6 +18,24 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan untuk efek 3D */
 }
 
+@media (max-width: 480px) {
+    header {
+        height: 60px; /* Tinggi header lebih kecil untuk mobile */
+    }
+
+    h1 {
+        font-size: 1.2rem; /* Ukuran font h1 lebih kecil */
+    }
+
+    h2 {
+        font-size: 1.2rem; /* Ukuran font h2 lebih kecil */
+    }
+
+    p {
+        font-size: 0.8rem; /* Ukuran font paragraf lebih kecil */
+    }
+}
+
 main {
     padding: 20px;
     border-top: 10px solid #000000; /
