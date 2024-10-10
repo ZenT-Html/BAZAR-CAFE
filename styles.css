@@ -34,7 +34,7 @@ main {
 }
 
 h1 {
-    font-size: 30px; /* Ukuran font yang besar */
+    font-size: 20px; /* Ukuran font yang besar */
     margin: 0; /* Menghapus margin default */
     text-shadow: 4px 4px 8px rgba(0, 0, 0.5, 1);
 }
