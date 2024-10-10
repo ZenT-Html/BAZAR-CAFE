@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    background-image: url('Fotbar.jpg'); /* Ganti dengan URL gambar Anda */
+    background-image: url('header.jpg'); /* Ganti dengan URL gambar Anda */
     background-size: cover; /* Membuat gambar menutupi area header */
     background-position: center; /* Memusatkan gambar */
     height: 200px; /* Tinggi header */
