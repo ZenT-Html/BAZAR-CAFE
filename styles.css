@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-image: url('D:\Web Menu/Fotbar.jpg'); /* Ganti dengan nama file gambar Anda */
+    background-image: url('Fotbar.jpg'); /* Ganti dengan nama file gambar Anda */
     background-size: cover; /* Agar gambar mengisi seluruh area */
     background-position: center; /* Agar gambar terpusat */
     height: 500px; /* Atur tinggi header */
